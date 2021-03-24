@@ -28,7 +28,7 @@ class SatSettingForm extends Component {
                 ],
               })(<InputNumber min={-180} max={180}
                               style={{width: "100%"}}
-                              placeholder="Please input Longitude"
+                              placeholder="Your Longitude"
               />)
             }
           </Form.Item>
@@ -42,7 +42,7 @@ class SatSettingForm extends Component {
                     message: "Please input your Latitude",
                   }
                 ],
-              })(<InputNumber placeholder="Please input Latitude"
+              })(<InputNumber placeholder="Your Latitude"
                               min={-90} max={90}
                               style={{width: "100%"}}
               />)
@@ -58,7 +58,7 @@ class SatSettingForm extends Component {
                     message: "Please input your Elevation",
                   }
                 ],
-              })(<InputNumber placeholder="Please input Elevation"
+              })(<InputNumber placeholder="Your Elevation"
                               min={-413} max={8850}
                               style={{width: "100%"}}
               />)
@@ -74,7 +74,7 @@ class SatSettingForm extends Component {
                     message: "Please input your Altitude",
                   }
                 ],
-              })(<InputNumber placeholder="Please input Altitude"
+              })(<InputNumber placeholder="Your Altitude"
                               min={0} max={90}
                               style={{width: "100%"}}
               /> )
@@ -90,7 +90,7 @@ class SatSettingForm extends Component {
                     message: "Please input your Duration",
                   }
                 ],
-              })(<InputNumber placeholder="Please input Duration" min={0} max={90} style={{width: "100%"}} />)
+              })(<InputNumber placeholder="Your Duration" min={0} max={90} style={{width: "100%"}} />)
             }
           </Form.Item>
           <Form.Item className="show-nearby">
